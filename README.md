@@ -1,6 +1,13 @@
+# build instructions
+
+How to build an out-of-tree kernel module:
+```bash
+make -C /lib/modules/`uname -r`/build M=$PWD
+```
+
 # snd_hda_macbookpro
 
-Last kernel tested was 4.15.0-54.
+Last kernel tested was 5.1.20
 
 This is a working sound system for linux on a Macbook Pro 14,3.
 The hardware device sound format is limited to 2/4 channel 44.1 kHz S24_LE S32_LE.

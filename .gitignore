@@ -1,0 +1,8 @@
+/*.ko
+/*.o
+/Module.symvers
+/modules.order
+/*.cmd
+/.tmp_versions/
+/snd-hda-codec-cirrus.mod.c
+/.patch_cirrus.o.d
